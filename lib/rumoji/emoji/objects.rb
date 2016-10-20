@@ -6,7 +6,17 @@ require 'set'
 module Rumoji
   class Emoji
     OBJECTS = Set[
-      self.new("\u{1F38D}", [:bamboo], "PINE DECORATION"), # "Japanese new year's door decoration
+      self.new("\u{2600}", [:sunny], "SUNNY"),
+      self.new("\u{1F327}", [:rainy], "RAINY CLOUD"),
+      self.new("\u{2639}", [:really_sad_face], "REALLY SAD FACE"),
+      self.new("\u{2639}", [:really_sad_face], "REALLY SAD FACE"),
+      self.new("\u{1F641}", [:sad_face], "SAD FACE"),
+      self.new("\u{1F641}", [:slightly_frowning_face], "SLIGHTLY FROWNING FACE"),
+      self.new("\u{1F642}", [:slightly_smiling_face], "SLIGHTLY SMILING FACE"),
+      self.new("\u{1F610}", [:neutral], "NEUTRAL FACE"),
+      self.new("\u{2690}", [:white_flag], "WHITE FLAG"),
+      self.new("\u{1F916}", [:robot_face], "ROBOT FACE"),
+      self.new("\u{1F38D}", [:bamboo], "PINE DECORATION"),
       self.new("\u{1F49D}", [:gift_heart], "HEART WITH RIBBON"),
       self.new("\u{1F38E}", [:dolls], "JAPANESE DOLLS"), # "Japanese Hinamatsuri or girls' doll festival"
       self.new("\u{1F49D}", [:gift_heart], "HEART WITH RIBBON"),

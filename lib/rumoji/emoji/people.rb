@@ -17,7 +17,7 @@ module Rumoji
       self.new("\u{1F61A}", [:kissing_closed_eyes], "KISSING FACE WITH CLOSED EYES"),
       self.new("\u{1F633}", [:flushed], "FLUSHED FACE"),
       self.new("\u{1F625}", [:disappointed_relieved], "DISAPPOINTED BUT RELIEVED FACE"),
-      self.new("\u{1F60C}", [:satisfied], "RELIEVED FACE"),
+      self.new("\u{1F60C}", [:satisfied, :relieved], "RELIEVED FACE"),
       self.new("\u{1F601}", [:grin], "GRINNING FACE WITH SMILING EYES"),
       self.new("\u{1F609}", [:wink], "WINKING FACE"),
       self.new("\u{1F61C}", [:stuck_out_tongue_winking_eye, :wink2], "FACE WITH STUCK OUT TONGUE AND WINKING EYE"), # "kidding, not serious"

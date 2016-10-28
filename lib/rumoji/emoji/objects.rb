@@ -107,7 +107,7 @@ module Rumoji
       self.new("\u{2709}" , [:email, :envelope]),
       self.new("\u{1f4b6}", [:euro]),
       self.new("\u{1f453}", [:eyeglasses]),
-      self.new("\u{1f4e0}", [:fax]),
+      self.new("\u{1f4e0}", [:fax,:typewriter]),
       self.new("\u{1f4c1}", [:file_folder]),
       self.new("\u{1f365}", [:fish_cake]),
       self.new("\u{1f3a3}", [:fishing_pole_and_fish]),
